@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: "Cloudy";
   src: url("/fonts/cloudy.ttf") format("truetype");
@@ -12,6 +16,10 @@
 }
 
 .title-shadow {
-  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
-    2px 2px 0 #000, 0px 9px 9px rgba(0, 0, 0, 0.15); /* Drop shadow */
+  text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000,
+    0px 9px 9px rgba(0, 0, 0, 0.15); /* Drop shadow */
 }
