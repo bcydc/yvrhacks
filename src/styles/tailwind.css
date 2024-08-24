@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Cloudy";
+  src: url("/fonts/cloudy.ttf") format("truetype");
+}
+
+.font-cloudy {
+  font-family: "Cloudy";
+}
