@@ -2,9 +2,9 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="flex w-full items-center justify-between px-6 py-8 md:w-[1200px] md:px-0"
+      className="flex w-full items-center justify-between px-6 py-10 md:w-[1200px] md:px-0"
     >
-      <div className="flex items-center gap-4 text-xl text-white md:gap-6 md:text-2xl">
+      <div className="flex items-center gap-4 text-xl text-white md:gap-6 md:text-3xl">
         <a href="#navbar">Home</a>
         <a href="#about">About</a>
         <a href="#prizes">Prizes</a>
@@ -16,9 +16,13 @@ export default function Navbar() {
         </a>
         <a href="#faq">FAQ</a>
       </div>
-      <div className="flex items-center gap-6 text-xl text-white md:gap-3 md:text-2xl">
-        <i className="fab fa-discord" />
-        <i className="fab fa-instagram" />
+      <div className="flex items-center gap-6 text-xl text-white md:gap-3 md:text-3xl">
+        <a href="https://discord.bcydc.ca/" target="_blank">
+          <i className="fab fa-discord" />
+        </a>
+        <a href="https://instagram.com/bcydc" target="_blank">
+          <i className="fab fa-instagram" />
+        </a>
       </div>
     </div>
   );

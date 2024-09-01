@@ -34,16 +34,13 @@ export default function About() {
           <h3 className="text-3xl font-bold text-white md:text-5xl">
             <i className="fas fa-map-marker-alt" /> VISST
           </h3>
-          <p className="text-lg font-light">
+          <p className="text-2xl font-light">
             Vancouver Independent School for Science and Technology is a
-            non-profit high school offering rigorous STEM education through
+            not-for-profit high school offering rigorous STEM education through
             real-world applications.
           </p>
-          <p className="text-lg font-light">
+          <p className="text-2xl font-light">
             They have generously offered their space as a venue for yvrHacks.
-            VISST is accessible by rapid transit through the 99 B-Line.
-          </p>
-          <p className="text-lg font-light">
             VISST is accessible by rapid transit through the 99 B-Line.
           </p>
         </div>
@@ -53,26 +50,26 @@ export default function About() {
           <h3 className="text-3xl font-bold text-white md:text-5xl">
             Schedule
           </h3>
-          <h6 className="text-lg font-light text-white md:text-2xl">
+          <h6 className="text-lg font-light text-white md:text-3xl">
             Stay tuned for workshops, games, and activities throughout the
             hackathon!
           </h6>
         </div>
         <div className="flex w-full flex-col items-center justify-between gap-2 md:flex-row">
           <div className="flex w-full flex-col gap-1 rounded bg-black bg-opacity-10 p-6 text-white">
-            <h6 className="text-lg font-bold">Opening Ceremony</h6>
+            <h6 className="text-xl font-bold">Opening Ceremony</h6>
             <h6 className="text-4xl font-bold">10am</h6>
           </div>
           <div className="flex w-full flex-col gap-1 rounded bg-black bg-opacity-20 p-6 text-white">
-            <h6 className="text-lg font-bold">Lunch Break</h6>
+            <h6 className="text-xl font-bold">Lunch Break</h6>
             <h6 className="text-4xl font-bold">1pm</h6>
           </div>
           <div className="flex w-full flex-col gap-1 rounded bg-black bg-opacity-30 p-6 text-white">
-            <h6 className="text-lg font-bold">Submission</h6>
+            <h6 className="text-xl font-bold">Submission</h6>
             <h6 className="text-4xl font-bold">5pm</h6>
           </div>
           <div className="flex w-full flex-col gap-1 rounded bg-black bg-opacity-40 p-6 text-white">
-            <h6 className="text-lg font-bold">Closing Ceremony</h6>
+            <h6 className="text-xl font-bold">Closing Ceremony</h6>
             <h6 className="text-4xl font-bold">6pm</h6>
           </div>
         </div>
