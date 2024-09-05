@@ -28,8 +28,8 @@ export default function Team() {
           <Member name="Simon Wong" image="simon.png" role="Sponsorship" />
         </div>
         <div className="flex w-full flex-col items-center justify-around gap-10 md:flex-row md:gap-0">
-          <Member name="Freddie Zhang" image="freddie.png" role="Marketing" />
           <Member name="Carol Wu" image="carol.png" role="Logistics & Food" />
+          <Member name="Freddie Zhang" image="freddie.png" role="Marketing" />
           <Member name="Shlok Shah" image="shlok.png" role="Marketing" />
         </div>
       </div>

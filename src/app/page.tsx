@@ -1,8 +1,9 @@
+import Team from "@/components/Team";
+import BCYDC from "@/components/BCYDC";
 import About from "@/components/About";
 import Navbar from "@/components/Navbar";
 import Landing from "@/components/Landing";
 import Sponsors from "@/components/Sponsors";
-import Team from "@/components/Team";
 
 export default function Home() {
   return (
@@ -22,6 +23,9 @@ export default function Home() {
       </div>
       <div className="flex w-screen flex-col items-center bg-sky-800">
         <Team />
+      </div>
+      <div className="flex w-screen flex-col items-center bg-sky-900">
+        <BCYDC />
       </div>
     </div>
   );
