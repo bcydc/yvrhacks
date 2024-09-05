@@ -6,9 +6,9 @@ import "@/styles/tailwind.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 const identity = {
-  title: "yvrHacks",
+  title: "yvrHacks – BC's Biggest Youth Hackathon",
   description:
-    "British Columbia's largest high school hackathon – Sunday, September 29th at the Vancouver Independent School for Science and Technology. Open to all high school students in British Columbia, from beginners to experienced developers. Join us for a full day of coding, engaging workshops, delicious snacks, and loads of fun! yvrHacks is organized by the British Columbia Youth Developer Collective.",
+    "Taking place on Sunday, September 29th at the Vancouver Independent School for Science and Technology, yvrHacks is a beginner-friendly hackathon open to all high school students in British Columbia. Join us for a full day of coding, engaging workshops, delicious snacks, many sponsored prizes and loads of fun!",
 };
 
 export const metadata: Metadata = {
@@ -16,8 +16,8 @@ export const metadata: Metadata = {
   description: identity.description,
   openGraph: {
     ...identity,
-    url: "https://bcydc.ca",
-    siteName: "BCYDC",
+    url: "https://yvrhacks.bcydc.ca",
+    siteName: "British Columbia Youth Developer Collective",
     locale: "en_US",
     type: "website",
     images: [{ url: "https://yvrhacks.bcydc.ca/images/banner.png" }],
