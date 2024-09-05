@@ -14,9 +14,9 @@ export default function Navbar() {
         <a href="#team" className="hidden md:inline">
           Team
         </a>
-        <a href="#faq">FAQ</a>
+        {/* <a href="#faq">FAQ</a> */}
       </div>
-      <div className="flex items-center gap-2 text-xl text-white md:text-3xl">
+      <div className="flex items-center gap-2 text-xl text-white md:gap-4 md:text-3xl">
         <a href="https://discord.bcydc.ca/" target="_blank">
           <i className="fab fa-discord" />
         </a>

@@ -3,7 +3,7 @@ export default function Team() {
     <div className="flex w-full flex-col items-center gap-20 px-6 py-24 md:w-[1200px] md:px-0">
       <div className="flex flex-col items-center gap-2">
         <h3
-          id="prizes"
+          id="team"
           className="text-center text-4xl font-bold text-white md:text-7xl"
         >
           The Team

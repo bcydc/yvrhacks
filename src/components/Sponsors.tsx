@@ -11,70 +11,58 @@ export default function Sponsors() {
           </h6>
         </div>
         <div className="flex w-full select-none flex-wrap items-center justify-between gap-14">
-          <div className="flex h-[360px] w-full rotate-1 flex-col gap-4 rounded bg-black bg-opacity-15 p-6 md:w-[360px]">
-            <div className="flex items-center gap-2">
-              <i className="fas fa-trophy text-2xl text-white" />
-              <h3 className="text-2xl font-bold text-white">
-                First Place Prize
-              </h3>
-            </div>
-            <ul className="w-full list-inside list-disc text-xl text-white blur-md">
-              <li>Haha nice try</li>
-              <li>Get jebaited</li>
-              <li>Trust me they will be</li>
-              <li>worth the wait!</li>
-              <li>Probably a decent chunk of cash</li>
-              <li>and quite a few subscriptions tbh</li>
-            </ul>
-          </div>
-          <div className="flex h-[360px] w-full -rotate-2 flex-col gap-4 rounded bg-black bg-opacity-15 p-6 md:w-[360px]">
-            <div className="flex items-center gap-2">
-              <i className="fas fa-medal text-2xl text-white" />
-              <h3 className="text-2xl font-bold text-white">
-                Second Place Prize
-              </h3>
-            </div>
-            <ul className="w-full list-inside list-disc text-xl text-white blur-md">
-              <li>Haha nice try</li>
-              <li>Get jebaited</li>
-              <li>Trust me they will be</li>
-              <li>worth the wait!</li>
-              <li>Probably a decent chunk of cash</li>
-              <li>and quite a few subscriptions tbh</li>
-            </ul>
-          </div>
-          <div className="flex h-[360px] w-full rotate-2 flex-col gap-4 rounded bg-black bg-opacity-15 p-6 md:w-[360px]">
-            <div className="flex items-center gap-2">
-              <i className="fas fa-image text-2xl text-white" />
-              <h3 className="text-2xl font-bold text-white">
-                Most On Theme Prize
-              </h3>
-            </div>
-            <ul className="w-full list-inside list-disc text-xl text-white blur-md">
-              <li>Haha nice try</li>
-              <li>Get jebaited</li>
-              <li>Trust me they will be</li>
-              <li>worth the wait!</li>
-              <li>Probably a decent chunk of cash</li>
-              <li>and quite a few subscriptions tbh</li>
-            </ul>
-          </div>
-          <div className="flex h-[360px] w-full -rotate-2 flex-col gap-4 rounded bg-black bg-opacity-15 p-6 md:w-[360px]">
-            <div className="flex items-center gap-2">
-              <i className="fas fa-baby text-2xl text-white" />
-              <h3 className="text-2xl font-bold text-white">
-                Best Beginner Hack
-              </h3>
-            </div>
-            <ul className="w-full list-inside list-disc text-xl text-white blur-md">
-              <li>Haha nice try</li>
-              <li>Get jebaited</li>
-              <li>Trust me they will be</li>
-              <li>worth the wait!</li>
-              <li>Probably a decent chunk of cash</li>
-              <li>and quite a few subscriptions tbh</li>
-            </ul>
-          </div>
+          <Prize
+            icon="fas fa-medal"
+            title="First Place Prize"
+            prizes={[
+              "Haha nice try",
+              "Get jebaited",
+              "Trust me they will be",
+              "worth the wait!",
+              "Probably a decent chunk of cash",
+              "and quite a few subscriptions tbh",
+            ]}
+            rotate="rotate-1"
+          />
+          <Prize
+            icon="fas fa-medal"
+            title="Second Place Prize"
+            prizes={[
+              "Haha nice try",
+              "Get jebaited",
+              "Trust me they will be",
+              "worth the wait!",
+              "Probably a decent chunk of cash",
+              "and quite a few subscriptions tbh",
+            ]}
+            rotate="-rotate-2"
+          />
+          <Prize
+            icon="fas fa-image"
+            title="Most On Theme Prize"
+            prizes={[
+              "Haha nice try",
+              "Get jebaited",
+              "Trust me they will be",
+              "worth the wait!",
+              "Probably a decent chunk of cash",
+              "and quite a few subscriptions tbh",
+            ]}
+            rotate="rotate-2"
+          />
+          <Prize
+            icon="fas fa-baby"
+            title="Best Beginner Hack"
+            prizes={[
+              "Haha nice try",
+              "Get jebaited",
+              "Trust me they will be",
+              "worth the wait!",
+              "Probably a decent chunk of cash",
+              "and quite a few subscriptions tbh",
+            ]}
+            rotate="-rotate-2"
+          />
           <div className="flex h-[360px] w-full -rotate-2 flex-col items-center justify-center gap-4 rounded bg-black bg-opacity-15 p-6 md:w-[360px]">
             <h3 className="text-center text-4xl font-bold leading-normal text-white">
               More Coming Soon!
@@ -85,7 +73,10 @@ export default function Sponsors() {
       </div>
       <div className="flex w-full flex-col gap-8 md:gap-14">
         <div className="flex flex-col items-center gap-2">
-          <h3 id="prizes" className="text-4xl font-bold text-white md:text-7xl">
+          <h3
+            id="sponsors"
+            className="text-4xl font-bold text-white md:text-7xl"
+          >
             Sponsors
           </h3>
           <h6 className="text-center text-lg font-light text-white md:text-3xl">
@@ -116,6 +107,34 @@ export default function Sponsors() {
           </a>
         </div>
       </div>
+    </div>
+  );
+}
+
+function Prize({
+  icon,
+  title,
+  prizes,
+  rotate,
+}: {
+  icon: string;
+  title: string;
+  prizes: string[];
+  rotate: string;
+}) {
+  return (
+    <div
+      className={`flex h-[360px] w-full transform flex-col gap-4 rounded bg-black bg-opacity-15 p-6 duration-300 hover:scale-[1.02] md:w-[360px] ${rotate}`}
+    >
+      <div className="flex items-center gap-2">
+        <i className={`${icon} text-2xl text-white`} />
+        <h3 className="text-2xl font-bold text-white">{title}</h3>
+      </div>
+      <ul className="w-full list-inside list-disc text-xl text-white blur-md">
+        {prizes.map((prize, index) => (
+          <li key={index}>{prize}</li>
+        ))}
+      </ul>
     </div>
   );
 }
