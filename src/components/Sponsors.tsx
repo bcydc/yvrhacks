@@ -1,12 +1,12 @@
 export default function Sponsors() {
   return (
-    <div className="flex w-full flex-col items-start gap-40 px-6 py-24 md:w-[1200px] md:px-0">
-      <div className="flex w-full flex-col gap-14">
+    <div className="flex w-full flex-col items-start gap-12 px-6 py-24 md:w-[1200px] md:gap-40 md:px-0">
+      <div className="flex w-full flex-col gap-8 md:gap-14">
         <div className="flex flex-col items-center gap-2">
-          <h3 id="prizes" className="text-5xl font-bold text-white">
+          <h3 id="prizes" className="text-4xl font-bold text-white md:text-7xl">
             Prizes
           </h3>
-          <h6 className="text-lg font-light text-white md:text-3xl">
+          <h6 className="text-center text-lg font-light text-white md:text-3xl">
             We will announce lots of prizes soon!
           </h6>
         </div>
@@ -83,12 +83,12 @@ export default function Sponsors() {
           <div className="w-[360px]" />
         </div>
       </div>
-      <div className="flex w-full flex-col gap-14">
+      <div className="flex w-full flex-col gap-8 md:gap-14">
         <div className="flex flex-col items-center gap-2">
-          <h3 id="prizes" className="text-5xl font-bold text-white">
+          <h3 id="prizes" className="text-4xl font-bold text-white md:text-7xl">
             Sponsors
           </h3>
-          <h6 className="text-lg font-light text-white md:text-3xl">
+          <h6 className="text-center text-lg font-light text-white md:text-3xl">
             Thank you to our sponsors for making yvrHacks possible!
           </h6>
         </div>
@@ -102,7 +102,6 @@ export default function Sponsors() {
           <a>
             <img src="/images/sponsors/hcb.png" alt="Hack Club Bank" />
           </a>
-
           <a>
             <img src="/images/sponsors/codecrafters.png" alt="CodeCrafters" />
           </a>

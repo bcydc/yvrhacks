@@ -4,7 +4,7 @@ export default function Navbar() {
       id="navbar"
       className="flex w-full items-center justify-between px-6 py-4 md:w-[1200px] md:px-0 md:py-10"
     >
-      <div className="flex items-center gap-4 text-xl text-white md:gap-6 md:text-3xl">
+      <div className="flex items-center gap-3 text-xl text-white md:gap-6 md:text-3xl">
         <a href="#navbar">Home</a>
         <a href="#about">About</a>
         <a href="#prizes">Prizes</a>
@@ -16,7 +16,7 @@ export default function Navbar() {
         </a>
         <a href="#faq">FAQ</a>
       </div>
-      <div className="flex items-center gap-3 text-xl text-white md:text-3xl">
+      <div className="flex items-center gap-2 text-xl text-white md:text-3xl">
         <a href="https://discord.bcydc.ca/" target="_blank">
           <i className="fab fa-discord" />
         </a>
