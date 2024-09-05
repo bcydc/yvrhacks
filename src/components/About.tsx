@@ -32,7 +32,10 @@ export default function About() {
         />
         <div className="flex flex-col gap-4 text-white">
           <h3 className="text-3xl font-bold text-white md:text-5xl">
-            <i className="fas fa-map-marker-alt" /> VISST
+            <i className="fas fa-map-marker-alt" /> VISST{" "}
+            <a href="https://visst.ca/" target="_blank">
+              <i className="fas fa-external-link-alt text-lg" />
+            </a>
           </h3>
           <p className="text-2xl font-light">
             Vancouver Independent School for Science and Technology is a
