@@ -16,7 +16,11 @@ export default function Landing() {
         </div>
       </div>
       <div className="flex items-center gap-2 md:gap-4">
-        <a className="flex items-center rounded bg-sky-400 px-4 py-2 transition duration-300 hover:bg-sky-500 md:px-8 md:py-5">
+        <a
+          target="_blank"
+          href="https://yvr.bcydc.ca/"
+          className="flex items-center rounded bg-sky-400 px-4 py-2 transition duration-300 hover:bg-sky-500 md:px-8 md:py-5"
+        >
           <p className="select-none whitespace-nowrap text-base font-medium text-white md:text-3xl">
             Sign up
           </p>
