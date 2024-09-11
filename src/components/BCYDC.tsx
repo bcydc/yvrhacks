@@ -17,7 +17,7 @@ export default function BCYDC() {
         className="w-full"
         alt="British Columbia Youth Developer Collective"
       />
-      <div className="flex flex-col items-center gap-20 md:flex-row">
+      <div className="flex flex-col items-center gap-10 md:flex-row md:gap-20">
         <img
           src="/images/bcydc.svg"
           className="order-2 h-32 w-32 md:order-1 md:h-64 md:w-64"
@@ -29,11 +29,11 @@ export default function BCYDC() {
             school students with a shared passion for computer science, software
             development, robotics, and technology.
           </p>
-          <div className="flex items-center gap-2 md:gap-4">
+          <div className="flex flex-col items-center gap-2 md:flex-row md:gap-4">
             <a
               target="_blank"
               href="https://bcydc.ca"
-              className="flex items-center rounded bg-sky-500 px-4 py-2 transition duration-300 hover:bg-sky-600 md:px-8 md:py-3"
+              className="flex w-full items-center justify-center rounded bg-sky-500 px-4 py-2 transition duration-300 hover:bg-sky-600 md:w-auto md:px-8 md:py-3"
             >
               <p className="select-none whitespace-nowrap text-base font-medium text-white md:text-2xl">
                 Visit our Website
@@ -42,7 +42,7 @@ export default function BCYDC() {
             <a
               target="_blank"
               href="https://discord.bcydc.ca/"
-              className="flex items-center gap-3 rounded bg-sky-600 px-4 py-2 transition duration-300 hover:bg-sky-700 md:px-8 md:py-3"
+              className="flex w-full items-center justify-center gap-3 rounded bg-sky-600 px-4 py-2 transition duration-300 hover:bg-sky-700 md:w-auto md:px-8 md:py-3"
             >
               <i className="fab fa-discord select-none text-base text-white md:text-2xl" />
               <p className="select-none whitespace-nowrap text-base font-medium text-white md:text-2xl">

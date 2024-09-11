@@ -84,25 +84,28 @@ export default function Sponsors() {
           </h6>
         </div>
         <div className="grid grid-cols-1 items-center gap-20 md:grid-cols-3">
-          <a>
+          <a target="_blank" href="https://hackclub.com/">
             <img src="/images/sponsors/hackclub.png" alt="Hack Club" />
           </a>
-          <a>
+          <a target="_blank" href="https://tks.world/">
             <img src="/images/sponsors/tks.png" alt="The Knowledge Society" />
           </a>
-          <a>
+          <a target="_blank" href="https://hackclub.com/fiscal-sponsorship/">
             <img src="/images/sponsors/hcb.png" alt="Hack Club Bank" />
           </a>
-          <a>
+          <a target="_blank" href="https://www.eimtechnology.com/">
+            <img src="/images/sponsors/eim.png" alt="EIM Technology" />
+          </a>
+          <a target="_blank" href="https://codecrafters.io/">
             <img src="/images/sponsors/codecrafters.png" alt="CodeCrafters" />
           </a>
-          <a>
+          <a target="_blank" href="https://axure.com/">
             <img src="/images/sponsors/axure.png" alt="Axure" />
           </a>
-          <a>
+          <a target="_blank" href="https://stevespokebar.ca/">
             <img src="/images/sponsors/steves.png" alt="Steve's Poke Bar" />
           </a>
-          <a>
+          <a target="_blank" href="https://getmoodfit.com/">
             <img src="/images/sponsors/moodfit.png" alt="Moodfit" />
           </a>
         </div>
