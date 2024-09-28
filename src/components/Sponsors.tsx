@@ -90,20 +90,20 @@ export default function Sponsors() {
           <a target="_blank" href="https://tks.world/">
             <img src="/images/sponsors/tks.png" alt="The Knowledge Society" />
           </a>
-          <a target="_blank" href="https://hackclub.com/fiscal-sponsorship/">
-            <img src="/images/sponsors/hcb.png" alt="Hack Club Bank" />
-          </a>
           <a target="_blank" href="https://www.eimtechnology.com/">
             <img src="/images/sponsors/eim.png" alt="EIM Technology" />
+          </a>
+          <a target="_blank" href="https://gen.xyz/">
+            <img src="/images/sponsors/xyz.png" alt=".xyz Domains" />
+          </a>
+          <a target="_blank" href="https://stevespokebar.ca/">
+            <img src="/images/sponsors/steves.png" alt="Steve's Poke Bar" />
           </a>
           <a target="_blank" href="https://codecrafters.io/">
             <img src="/images/sponsors/codecrafters.png" alt="CodeCrafters" />
           </a>
           <a target="_blank" href="https://axure.com/">
             <img src="/images/sponsors/axure.png" alt="Axure" />
-          </a>
-          <a target="_blank" href="https://stevespokebar.ca/">
-            <img src="/images/sponsors/steves.png" alt="Steve's Poke Bar" />
           </a>
           <a target="_blank" href="https://getmoodfit.com/">
             <img src="/images/sponsors/moodfit.png" alt="Moodfit" />
