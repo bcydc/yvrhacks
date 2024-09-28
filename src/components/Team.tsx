@@ -34,18 +34,18 @@ export default function Team() {
             role="Marketing Lead"
             href="https://www.linkedin.com/in/ethan-jin-0743722ab/"
           />
-          <Member name="Shanvanth A" image="shaun.png" role="Logistics" />
+          <Member name="Freddie Zhang" image="freddie.png" role="Marketing" />
+          <Member name="Simon Wong" image="simon.png" role="Sponsorship" />
           <Member
             name="Johnny Dong"
             image="johnny.png"
-            role="Logistics & Treasury"
+            role="Treasury & Food"
             href="https://www.linkedin.com/in/johnny-dong2007/"
           />
-          <Member name="Simon Wong" image="simon.png" role="Sponsorship" />
         </div>
         <div className="flex w-full flex-col items-center justify-around gap-10 md:flex-row md:gap-0">
-          <Member name="Carol Wu" image="carol.png" role="Logistics & Food" />
-          <Member name="Freddie Zhang" image="freddie.png" role="Marketing" />
+          <Member name="Shanvanth A" image="shaun.png" role="Logistics" />
+          <Member name="Carol Wu" image="carol.png" role="Logistics" />
           <Member name="Shlok Shah" image="shlok.png" role="Marketing" />
         </div>
       </div>
