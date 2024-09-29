@@ -16,8 +16,8 @@ export default function About() {
       <div className="flex w-full items-center justify-between">
         <div className="flex flex-col items-center gap-2 text-3xl font-black text-white md:gap-12 md:text-7xl">
           <h3>8 hours</h3>
-          <h3>40+ students</h3>
-          <h3>$500+ prizes</h3>
+          <h3>70+ students</h3>
+          <h3>$4000+ prizes</h3>
         </div>
         <img
           src="/images/science-world.svg"
