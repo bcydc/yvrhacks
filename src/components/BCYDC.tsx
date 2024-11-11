@@ -25,7 +25,7 @@ export default function BCYDC() {
         />
         <div className="order-1 flex flex-col items-center gap-8 md:order-2">
           <p className="max-w-3xl text-center text-xl font-light text-white md:text-3xl">
-            yvrHacks is organized by BCYDC. We are a collective of over 200 high
+            yvrHacks is organized by BCYDC. We are a collective of over 300 high
             school students with a shared passion for computer science, software
             development, robotics, and technology.
           </p>
